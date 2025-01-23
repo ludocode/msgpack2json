@@ -64,7 +64,7 @@ $ echo '[0,0,"sum",[1,2]]' | json2msgpack | nc -q1 localhost 18800 | msgpack2jso
 
 - **Arch Linux**: [msgpack-tools in the AUR](https://aur.archlinux.org/packages/msgpack-tools/), e.g. `yaourt -S msgpack-tools`
 
-- **Mac OS X** ([Homebrew](http://brew.sh/)): `brew install https://ludocode.github.io/msgpack-tools.rb`
+- **Mac OS X** ([Homebrew](http://brew.sh/)): `brew install msgpack-tools`
 
 - **Debian (Ubuntu, etc.)**: `.deb` package for x86\_64 in the [latest release](https://github.com/ludocode/msgpack-tools/releases/latest); install with `dpkg`
 
